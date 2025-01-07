@@ -1,0 +1,44 @@
+# Scala and SBT
+target/
+*.class
+*.log
+*.bak
+*.tmp
+.sbt/
+.project
+.cache/
+.idea/*
+target/*
+
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Spark
+spark-warehouse/
+
+# Kafka
+logs/
+config/
+data/
+meta.properties
+
+# Environment variables
+.env
+
+# Other
+lib_managed/
+src_managed/
+dist/
+db/
+tmp/
+output/
+.idea
+.bsp
+project/project
+project/target
+target
